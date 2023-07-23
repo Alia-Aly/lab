@@ -1,0 +1,109 @@
+@media (min-width:250px) and (max-width:1200px){
+    header{
+        background-size: cover;
+    }
+    .shown{
+        display: none;
+    }
+    nav .fa-solid{
+        display: block;
+    }
+    .container{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .container h2{
+        margin: 10px 0px;
+    }
+    .container p{
+        font-size: 20px;
+    }
+    .one h2{
+        font-size: 25px;
+    }
+    .one p{
+        font-size: 18px;
+    }
+    .one .about-us{
+        flex-wrap:wrap ;
+    }
+    .one .about-us .child-one{
+        width: 90%;   
+        margin: 20px 0px;
+    }
+    .two h2{
+        font-size: 35px;
+    }
+    .two .list ul li{
+        width: 70%;
+        margin: auto;
+    }
+    .three h2{
+        font-size: 25px;
+    }
+    .three .contain-three{
+        flex-wrap: wrap;
+    } 
+    .contain-three .p{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
+    .contain-three img{
+        width: 85%;
+    }
+    .four .contain-four{
+        flex-wrap: wrap;
+    }
+    .four .contain-four .f-one{
+        width:90%;
+        margin: auto;
+    }
+    .card{
+        width: 95%;
+    }
+    .calc-img{
+        font-size: 25px;
+    }
+/* ........................................................................ */
+    .parent-calory,.parent-colist,
+    .parent-hemo,.parent-suga,
+    .parent-bloc,.parent-babies,
+    .parent-heart,.parent-child,
+    .parent-esr,.parent-uric,
+    .parent-cir{
+        flex-wrap: wrap;
+    }
+    .about-calory,.colistrol,
+    .hemog,.suga,.heart,.child,.esr,.uric,.cir,
+    .about-bloc,.about-baby{
+        width: 98%;
+    }
+    .calory-result,.colist-result,
+    .hemog-result,#suga-result,
+    #bloc-result,#baby-result,
+    #heart-result,#child-result,
+    #esr-result,#uric-result,
+    #cir-result{
+        font-size: 20px;
+        width: 60%;
+    }
+    .advert{
+        width: 100%;
+    }
+    select{
+        width: 61.5%;
+    }
+    .calories input,.colistrol input,
+    .hemog input,.suga input,
+    .bloc input,.babies input,
+    .heart input,.child input,
+    .esr input,.uric input,
+    .cir input{
+        width: 60%;
+    }
+    .calories .btn-1,#btn-2,.btn-3,.btn-4,
+    .btn-5,.btn-6,.btn-7,.btn-8{
+        width: 60%;
+    }
+}

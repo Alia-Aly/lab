@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحليل سرعة الترسيب</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+</head>
+<body>
+    <div class="parent-esr">
+        <div class="esr">
+            <div class="text">
+                <img src="../images/esr.jfif" alt="" srcset="">
+                <h3>تحليل سرعة الترسيب</h3>
+                <p>تحليل سرعة الترسيب يعبر عن كمية البلازما الموجودة فى الجزء العلوى من انبوب الاختبار بعد ساعة واحدة</p>
+            </div>
+            <input type="number" name="esr-age" id="esr-age" required placeholder="العمر (بالسنوات)">
+            <input type="number" name="esr-range" id="esr-range" required placeholder="سرعة الترسيب (بالملليمتر/ساعة)">
+            <select name="esr-type" id="esr-type">
+                <option value="الجنس:">الجنس:</option>
+                <option value="انثى">انثى</option>
+                <option value="ذكر">ذكر</option>
+            </select>
+            <button class="btn-3" onclick="esr();"> احسب</button>
+            <div class="esr-result" id="esr-result">
+                
+            </div>
+        </div>
+        <div class="advert">
+            <div class="adv-1">
+                <img src="../images/adv.png" alt="">
+                <p>6 فوائد للاستحمام بالماء البارد</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-1.png" alt="">
+                <p> علاج انسداد الشرايين القدم السكرى</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-2.png" alt="">
+                <p>فوائد الموز لمرضى الكبد(فوائد ستذهلك)</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-4.png" alt="">
+                <p> ميلاتونين النوم:هل هو فعال؟  </p>
+            </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

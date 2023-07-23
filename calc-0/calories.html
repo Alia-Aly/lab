@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب السعرات الحرارية</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+</head>
+<body>
+    <div class="parent-calory">
+        <div class="about-calory">
+            <div class="calory-words">
+                <img src="../images/calory.png" alt="" class="img-1">
+                <p>استخدم حاسبة السعرات الحرارية لتقدير السعرات الحرارية اليومية التى يحتاجها جسمك للحفاظ على وزنك الحالى ولحساب السعرات الحرارية نتبع معادلة ميفلين سانت جوير لحساب الطاقة الكلية التى يحتاجها الجسم</p>
+            </div>
+            <div class="calories">
+                <input type="number" id="age" name="age" required placeholder="العمر(بالسنه)">
+                <input type="number" id="weight" name="weight" required placeholder="الوزن(بالكجم)">
+                <input type="number" id="height" name="height" required placeholder="الطول(بالسم)">
+                <select name="" id="type">
+                    <option value="الجنس:">الجنس:</option>
+                    <option value="انثى">انثى</option>
+                    <option value="ذكر">ذكر</option>
+                </select>
+                <button id="btn-1" class="btn-1" onclick="calory();">التالى<i class="fa-solid fa-arrow-left"></i></button>
+        
+                <div class="calory-result" id="calory-result">
+        
+                </div>
+            </div>
+        </div>
+        <div class="advert">
+            <div class="adv-1">
+                <img src="../images/adv.png" alt="">
+                <p>6 فوائد للاستحمام بالماء البارد</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-1.png" alt="">
+                <p> علاج انسداد الشرايين القدم السكرى</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-2.png" alt="">
+                <p>فوائد الموز لمرضى الكبد(فوائد ستذهلك)</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-4.png" alt="">
+                <p> ميلاتونين النوم:هل هو فعال؟  </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

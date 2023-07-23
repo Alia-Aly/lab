@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حاسبة مؤشر كتلة الجسم</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+</head>
+<body>
+    <div class="parent-bloc">
+        <div class="about-bloc">
+            <div class="bloc-img">
+                <img src="../images/bmi-calc.jpg" alt="">
+            </div>
+            <div class="bloc">
+                <input type="number" name="bloc-height" id="bloc-height" required placeholder="الطول (بالسم)">
+                <input type="number" name="bloc-weight" id="bloc-weight" required placeholder="الوزن (بالكجم)">
+                <button class="btn-5" onclick="block();"> احسب </button>
+
+                <div id="bloc-result">
+
+                </div>
+                <div id="bloc-range">
+
+                </div>
+            </div>
+            <div class="warning">
+                <p>ملاحظه:هذه الحاسبة الطبية غير معدة للاطفال ,النساء الحوامل أو المرضعات</p>
+            </div>
+
+            <div class="explain">
+                <p>تستخدم حاسبة مؤشر كتلة الجسم لحساب قيمة مؤشر كتلة الجسم (Body Mass Index) وهو مقياس للدهون في الجسم على أساس الطول والوزن، ويمكن تطبيقه على النساء والرجال البالغين.
+                    إذ تعمل حاسبة مؤشر كتلة الجسم على تقسيم الوزن بالكيلوغرام على مربع الطول بالأمتار لحساب قيمة مؤشر كتلة الجسم، ويمكن توضيح المعادلة كالآتي:  
+                    مؤشر كتلة الجسم= الوزن بالكيلوغرام/ الطول بالمتر مربع.
+                     يتم استخدام هذه القيمة على نطاق واسع كمؤشر على ما إذا كان الشخص يتمتع بوزن صحي بالنسبة لطوله، إذ يتم استخدام القيمة الناتجة لتصنيف ما إذا كان الشخص يعاني من زيادة الوزن أو النحافة أو يملك وزنًا طبيعيًا بالاعتماد على النطاق التي تقع فيه القيمة.
+                    ويجدر التنويه أن مؤشر كتلة الجسم هو مقياس غير كامل لوزن الجسم الصحي، ولكنه مفيد كمؤشر لتحديد ما إذا كان يلزم إجراء أي اختبار أو إجراء إضافي.
+                     وهذا الجدول يوضح قيم مؤشر كتلة الجسم التي أوصت بها منظمة الصحة العالمية للنساء والرجال البالغين من العمر 20 عامًا أو أكبر</p>
+            </div>
+        </div>
+        <div class="advert">
+            <div class="adv-1">
+                <img src="../images/adv.png" alt="">
+                <p>6 فوائد للاستحمام بالماء البارد</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-1.png" alt="">
+                <p> علاج انسداد الشرايين القدم السكرى</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-2.png" alt="">
+                <p>فوائد الموز لمرضى الكبد(فوائد ستذهلك)</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-4.png" alt="">
+                <p> ميلاتونين النوم:هل هو فعال؟  </p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+</html>

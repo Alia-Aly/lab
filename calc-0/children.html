@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حساب تطور الطفل</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/resposive.css">
+</head>
+<body>
+    <div class="parent-child">
+        <div class="child">
+            <div class="text">
+                <img src="../images/KidGrowth.jpg" alt="">
+                <h3>حساب تطور الطفل وفقا للطول والوزن</h3>
+                <p>حاسبة نمو الطفل هى عبارة عن اداة لفحص تطور طفلك وفق معطيات الوزن و الطول، هذا الفحص مخصص لحساب تطور الاطفال بين اعمار 2-18سنة.</p>
+            </div>
+            <input type="number" name="child-age" id="child-age" required placeholder="العمر (سنه)">
+            <input type="number" name="child-height" id="child-height" required placeholder="الطول (بالسم)">
+            <input type="number" name="child-weight" id="child-weight" required placeholder="الوزن (بالكجم)">
+            <select name="" id="child-type">
+                <option value="الجنس:">الجنس:</option> 
+                <option value="انثى">انثى</option> 
+                <option value="ذكر">ذكر</option> 
+            </select>
+            <button class="btn-8" onclick="child();"> احسب </button>
+
+            <div id="child-result">
+
+            </div>
+        </div>
+        <div class="advert">
+            <div class="adv-1">
+                <img src="../images/adv.png" alt="">
+                <p>6 فوائد للاستحمام بالماء البارد</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-1.png" alt="">
+                <p> علاج انسداد الشرايين القدم السكرى</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-2.png" alt="">
+                <p>فوائد الموز لمرضى الكبد(فوائد ستذهلك)</p>
+            </div>
+            <div class="adv-1">
+                <img src="../images/adv-4.png" alt="">
+                <p> ميلاتونين النوم:هل هو فعال؟  </p>
+            </div>
+    </div>
+
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
